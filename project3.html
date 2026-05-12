@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background:linear-gradient();
+    }
+    .container{
+        background:rgb(255, 248, 236);
+        border: 8px;
+        border-radius: 6px;
+
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .box{
+        display: flex;
+        gap: 5px;
+    }
+    .img{
+       margin-right: 10px;
+    }
+    .footer{
+        display:flex
+    }
+
+</style>
+<body>
+    <div class="container">
+    <div class="nav">
+        <h2 style="margin-left: 12px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display:inline-block ;">ASTRO.</h2>
+        <div>PRODUCTS</div>
+        <div>CATEGORY</div>
+        <div>ABOUT US</div>
+        <div> CONTACT</div>
+        <div class="box">
+        <div class="img"> <img src="data:image/png;base64,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" width="22px"></div>
+        <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGybvhlK9OG1xfq-SGqNma9aQwQc5_LF4FV3xHxlanj5c1JdY3Y_M4VpE&s" width="28px"></div>
+        <div class="img"><img src="data:image/png;base64,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" width="23px"></div>
+    </div>
+    </div >
+    <hr>
+
+    <p STYLE="color: orange; margin-left: 20px;">NEW</p>
+    <h1 style="margin-left: 18px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; display: inline-block;">ASTRO <br>WINTER<br> ARMOR ||<br> $560 </h1><hr style="width: 160px; position: absolute; top: 335px;"><br>
+    <h5 style=" margin-left: 18px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">DESCRIPTION</h5>
+     <p style="margin-left: 18px;">
+            A next-gen cold war jacket.The  <br>
+            essence of retro style and the  <br>
+            resilience you need for extreme winter<br>
+            condition. Engineered to provide <br>
+            versatile function for your winter<br>
+            wardrobe , accented with strategic<br>
+            utilitydetails.<br>
+        </p>
+        <h6 style="margin-left: 18px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">READ MORE ></h6><br><hr style="width: 160px; position: absolute; top: 600px;">
+        <h4 style="margin-left: 18px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">MATERIAL & CARE  </h4><br><hr style="width: 160px; position: absolute; top: 680px;">
+        <h4 style="margin-left: 18px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">SHIPPING & RETURS </h4><br><hr style="width: 160px; position: absolute; top: 755px;">
+
+    <div class="footer">
+        <div>
+            <img src="" alt="b">
+            <h6>3X<br>water-REPELLENT</h6><br>
+            <p>The fabric repels rain,snow <br>and moisture while keeping <br>you dry and comfortable</p></div>        
+        </div>
+        <div> <img src="" alt="b">
+            <h6>3D AREAS<br>PUFFERED</h6><br>
+            <p>The fabric repels rain,snow <br>and moisture while keeping <br>you dry and comfortable</p></div>
+        <div></div>
+        <div></div>
+    </div>
+    
+    </div>
+</body>
+</html>
