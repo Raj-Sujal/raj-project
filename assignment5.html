@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LOMBOK</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Helvetica Neue', sans-serif;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+body{
+    background:#fff;
+}
+
+main{
+    position:relative;
+}
+
+main img{
+    width:100%;
+    height:100vh;
+    object-fit:cover;
+    padding:18px;
+}
+
+h1{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform:translateX(-50%);
+    color:aliceblue;
+    font-size:90px;
+    letter-spacing:5px;
+}
+
+h4{
+    position:absolute;
+    top:56%;
+    left:50%;
+    transform:translateX(-50%);
+    color:aliceblue;
+    font-size:24px;
+    letter-spacing:3px;
+}
+
+nav{
+    position:absolute;
+    top:25px;
+    right:40px;
+    display:flex;
+    gap:18px;
+    padding:3px;
+}
+
+.box1,.box2,.box3{
+    color:aliceblue;
+    font-size:20px;
+    cursor:pointer;
+}
+
+.box3{
+    border:1px solid white;
+    padding:8px 14px;
+}
+
+.container{
+    padding:60px 80px;
+}
+
+h2{
+    text-align:center;
+    padding:20px;
+    font-size:42px;
+    letter-spacing:3px;
+}
+
+.div{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    margin-top:40px;
+}
+
+.img1{
+    text-align:center;
+}
+
+.img1 img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+}
+
+h5{
+    margin-top:18px;
+    color:black;
+    font-size:20px;
+    font-weight:500;
+    line-height:28px;
+}
+
+.about{
+    margin-top:80px;
+    display:flex;
+    gap:50px;
+    align-items:center;
+}
+
+.about img{
+    width:50%;
+    height:420px;
+    object-fit:cover;
+}
+
+.about-text{
+    width:50%;
+}
+
+.about-text h3{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.about-text p{
+    font-size:18px;
+    line-height:32px;
+    color:#444;
+}
+
+footer{
+    margin-top:80px;
+    background:#ececec;
+    padding:120px 80px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-left{
+    display:flex;
+    gap:18px;
+    font-size:28px;
+    color:#000;
+}
+
+.footer-right{
+    display:flex;
+    gap:30px;
+}
+
+.footer-right a{
+    text-decoration:none;
+    color:#000;
+    font-size:22px;
+}
+</style>
+</head>
+
+<body>
+
+<main>
+    <div>
+        <img src="ChatGPT Image May 14, 2026, 08_27_11 AM.png" alt="">
+
+        <h1>LOMBOK</h1>
+        <h4>HOLISTIC HEALTH & MORE</h4>
+
+        <nav>
+            <div class="box1">ABOUT</div>
+            <div class="box2">ARTICLE</div>
+            <div class="box3">SUBSCRIBE</div>
+        </nav>
+    </div>
+</main>
+
+<div class="container">
+
+    <h2>LATEST ARTICLES</h2>
+
+    <div class="div">
+
+        <div class="img1">
+            <img src="https://images.unsplash.com/photo-1511936606692-5e0d73f6b638?q=80&w=1935&auto=format&fit=crop">
+            <h5>How to use mindfulness in your everyday life</h5>
+        </div>
+
+        <div class="img1">
+            <img src="https://images.unsplash.com/photo-1624817670169-57a1245cf3f1?q=80&w=1965&auto=format&fit=crop">
+            <h5>Simple ways to improve your mental wellness</h5>
+        </div>
+
+        <div class="img1">
+            <img src="https://images.unsplash.com/photo-1536431311719-398b6704d4cc?q=80&w=1887&auto=format&fit=crop">
+            <h5>Healthy habits for a balanced lifestyle</h5>
+        </div>
+
+    </div>
+
+    <div class="about">
+
+        <img src="https://images.unsplash.com/photo-1621849400072-f554417f7051?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+        <div class="about-text">
+            <h3>ABOUT </h3>
+            <p>
+               Holistic health is an approach to healthcare that considers the whole person—body, mind, spirit, and emotions—in the pursuit of optimal health and wellness. It emphasizes the interconnectedness of these aspects and seeks to address imbalances or disharmonies that may arise within them.Holistic health practitioners may include naturopathic doctors, integrative medicine physicians, holistic nurses, chiropractors, acupuncturists, nutritionists, and various types of therapists (such as massage therapists, psychotherapists, and energy healers).
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+
+    <div class="footer-left">
+        <span>◉</span>
+        <span>◉</span>
+        <span>◉</span>
+        <span>◉</span>
+    </div>
+
+    <div class="footer-right">
+        <a href="#">ABOUT</a>
+        <a href="#">ARTICLES</a>
+        <a href="#">SUBSCRIBE</a>
+    </div>
+
+</footer>
+</body>
+</html>
